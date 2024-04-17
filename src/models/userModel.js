@@ -18,7 +18,7 @@ const userSchema = new mongoose.Schema({
     },
     isVerified:{
         type:Boolean,
-        default:false  
+        default:false 
     },
     isAdmin:{
         type:Boolean,
@@ -34,3 +34,17 @@ const userSchema = new mongoose.Schema({
 const User = mongoose.model.users || mongoose.model("users",userSchema)
 
 export default User
+
+
+
+
+
+
+
+
+
+
+
+
+
+
